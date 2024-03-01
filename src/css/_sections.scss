@@ -1,0 +1,146 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+}
+.img-text {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 120px;
+    &_row-reverse {
+        flex-direction: row-reverse;
+    }
+    &_col {
+        width: 50%;
+    }
+    &_center {
+        display: flex;
+        align-items: center;
+    }
+    &_title {
+        font-family: "Poppins";
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 29px;
+        margin-bottom: 24px;
+        color: #2A2E45;
+    }
+    &_copy {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #2A2E45;
+        margin-bottom: 0; 
+    }
+    &_img {
+        position: relative;
+        padding-top: 71%;
+        img {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+.sport-section {
+    display: flex;
+    gap: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    &_col {
+        width: 50%;
+    }
+    &_wrapper {
+        position: relative;
+
+    }
+    &_img {
+        position: relative;
+        padding-top: 100%;
+        img {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+    &_content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    &_title {
+        font-family: Recoleta;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &_btn {
+        background: #FFFFFF;
+        border-radius: 69px;
+        a {
+            text-decoration: none;
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #3D3D3D; 
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 12px;
+            padding-right: 27px;
+            padding-bottom: 12px;
+            padding-left: 27px;
+            min-width: 165px; 
+        }
+    } 
+}
+.slider {
+    margin-bottom: 40px;
+}
+.slider-box {
+    aspect-ratio: 134/173;
+    border-radius: 15px;
+    overflow: hidden;
+    img {
+      display: block;
+      width: 100%; 
+      height: 100%;
+      object-fit: cover; 
+      object-position: center;
+    }    
+}
+
